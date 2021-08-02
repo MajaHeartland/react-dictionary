@@ -8,7 +8,6 @@ function Dictionary() {
       <br />
       <WordSearch />
       <br />
-      <br />
       <footer>
         <a
           href="https://github.com/MajaDit/react-dictionary"
