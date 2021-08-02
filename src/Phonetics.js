@@ -4,7 +4,6 @@ export default function Phonetics(props) {
   if (props.phonetics) {
     return (
       <div className="Phonetics">
-        {props.phonetics.text}
         <a
           href={props.phonetics.audio}
           target="_blank"
@@ -12,6 +11,7 @@ export default function Phonetics(props) {
         >
           Listen
         </a>
+        <span> {props.phonetics.text}</span>
       </div>
     );
   } else {
