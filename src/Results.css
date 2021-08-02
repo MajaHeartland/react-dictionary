@@ -1,3 +1,7 @@
 .Results {
   text-align: justify;
 }
+
+.Results h2 {
+  text-transform: capitalize;
+}
