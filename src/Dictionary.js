@@ -7,7 +7,7 @@ function Dictionary() {
       <div className="container">
         <h1>Dictionary</h1>
         <br />
-        <WordSearch />
+        <WordSearch defaultWord="hello" />
         <br />
         <footer>
           <a
