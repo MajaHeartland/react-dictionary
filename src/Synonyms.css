@@ -1,4 +1,15 @@
 .Synonyms ul {
   list-style: none;
   display: inline-block;
+  padding: 5px;
+  margin: 0;
+  text-align: left;
+}
+.Synonyms li {
+  font-size: 14px;
+  opacity: 0.8;
+  line-height: 1px;
+}
+.Synonyms strong {
+  font-size: 14px;
 }

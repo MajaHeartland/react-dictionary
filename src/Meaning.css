@@ -1,3 +1,14 @@
 .Meaning h4 {
   text-transform: capitalize;
+  color: #237978;
+}
+.Meaning {
+  padding-right: 50%;
+}
+.Meaning .definition {
+  margin-top: 10px;
+}
+.Meaning .example,
+.Meaning em {
+  font-size: 14px;
 }

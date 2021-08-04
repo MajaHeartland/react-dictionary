@@ -1,7 +1,10 @@
 .Results {
   text-align: justify;
+  padding-left: 5%;
 }
 
 .Results h2 {
   text-transform: capitalize;
+  color: #fc7750;
+  padding-bottom: 5px;
 }

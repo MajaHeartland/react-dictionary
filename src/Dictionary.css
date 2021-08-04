@@ -1,3 +1,21 @@
 .Dictionary {
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  background: url(./images/Stuck\ at\ Home\ -\ Happy\ Place.png);
+  background-size: 50%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 5%;
+}
+
+.Dictionary h1 {
+  color: #eb7272;
+}
+.Dictionary footer {
+  margin-top: 100px;
+}
+.Dictionary footer a {
+  color: #204eb2;
+  text-decoration: none;
 }

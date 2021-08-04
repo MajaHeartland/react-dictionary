@@ -1,5 +1,6 @@
 import axios from "axios";
 import Results from "./Results";
+import "./WordSearch.css";
 import React, { useState } from "react";
 
 export default function WordSearch(props) {
@@ -34,12 +35,13 @@ export default function WordSearch(props) {
         <h5>Search for a word</h5>
         <form onSubmit={handleSubmit}>
           <input
+            className="searchInput"
             type="search"
             placeholder="Word"
             onChange={updateSearch}
             defaultValue="hello"
           />
-          <input type="submit" value="Search" />
+          <input className="searchButton" type="submit" value="Search" />
         </form>
         <br />
         <Results results={results} />

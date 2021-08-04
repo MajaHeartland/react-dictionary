@@ -1,0 +1,16 @@
+.WordSearch h5 {
+  font-size: 18px;
+}
+.WordSearch .searchInput {
+  border-radius: 2px;
+  border: solid 1.35px black;
+  padding: 2px 10px;
+}
+.WordSearch .searchButton {
+  border: solid 1.35px black;
+  border-radius: 2px;
+  background: #ffc943;
+  color: black;
+  padding: 2px 10px;
+  margin-left: 1px;
+}
