@@ -15,7 +15,6 @@ export default function WordSearch(props) {
   }
   function handlePexel(response) {
     setPhotos(response.data.photos);
-    console.log(response.data.photos[0]);
   }
 
   function search() {
