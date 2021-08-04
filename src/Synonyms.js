@@ -8,8 +8,8 @@ export default function Synonyms(props) {
         <strong>Synonyms:</strong>
         {props.synonyms.map((synonyms, index) => {
           return (
-            <ul>
-              <li key={index}>{synonyms};</li>
+            <ul key={index}>
+              <li>{synonyms};</li>
             </ul>
           );
         })}
