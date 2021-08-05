@@ -20,3 +20,14 @@
   color: #204eb2;
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .Dictionary {
+    background: none;
+  }
+}
+@media (max-width: 280px) {
+  .Dictionary h1 {
+    margin-top: 30px;
+  }
+}
