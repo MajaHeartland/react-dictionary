@@ -3,3 +3,9 @@
   margin-right: 10px;
   border-radius: 4px;
 }
+
+@media (max-width: 500px) {
+  .Photos img {
+    display: none;
+  }
+}

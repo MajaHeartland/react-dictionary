@@ -6,17 +6,16 @@ export default function Photos(props) {
     return (
       <div className="Photos">
         {props.photos.map((photo, index) => {
-          if (index < 9)
-            return (
-              <a
-                key={index}
-                href={photo.src.original}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={photo.src.small} alt="word-related images" />
-              </a>
-            );
+          return (
+            <a
+              key={index}
+              href={photo.src.original}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={photo.src.small} alt="word-related images" />
+            </a>
+          );
         })}
       </div>
     );
