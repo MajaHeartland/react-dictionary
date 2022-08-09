@@ -15,7 +15,7 @@
   margin-left: 1px;
 }
 
-@media (max-width: 322px) {
+@media (max-width: 500px) {
   .WordSearch .searchInput {
     max-width: 45%;
     font-size: 15px;
