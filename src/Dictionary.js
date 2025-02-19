@@ -11,13 +11,13 @@ function Dictionary() {
         <br />
         <footer>
           <a
-            href="https://github.com/MajaDit/react-dictionary"
+            href="https://github.com/MajaHeartland/react-dictionary"
             target="_blank"
             rel="noopener noreferrer"
           >
             Open-source
           </a>{" "}
-          by Maja Ditrtova
+          by Maja Heartland
         </footer>
       </div>
     </div>
