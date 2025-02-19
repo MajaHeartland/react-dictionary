@@ -1,1 +1,1 @@
-Hosted on Netlify, view here: https://react-dictionary-maja-ditrtova.netlify.app/.
+Hosted on Netlify, view here: https://maja-heartland-dictionary.netlify.app/.
